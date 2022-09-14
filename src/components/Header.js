@@ -1,10 +1,12 @@
 import React from "react";
-import '../styles/header.css';
+import "../styles/header.css";
 
-export default function Header() {
-    return (
-      <header>
-         <h2>Home</h2>
+const Header = () => {
+  return (
+    <header>
+      <h2>Home</h2>
     </header>
-    );
-}
+  );
+};
+
+export default Header;
